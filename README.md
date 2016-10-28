@@ -3,14 +3,14 @@
 
 ## Synopsis
 
-Life Invader is an amazing game where you will personify a new social network. Your purpose is to take control on every private informations on each person on Earth in order to serve a dark side !
-
+Life Invader is an amazing game where you will personify a new social network. Your purpose is to take control on every private informations on each person on Earth in order to serve a dark side!
+//TODO: modify the sentence PLIZZ
 
 ## Description 
 
-You just created your new social network. It's time for you to grow it, to increase the number of active users. To do that, all shots are allowed ! Negotiate advertising contracts, make a pact with a nation for funds against an access to data of your members. Create an association to provide internet in third-world countries so their inhabitants have access to your products !
+You just created your new social network. It's time for you to grow it, to increase the number of active users. To do that, all shots are allowed ! Negotiate advertising contracts, make a pact with a nation for funds against an access to data of your members. Create an association to provide internet in third-world countries so their inhabitants have access to your products!
 
-Several types of victory are possible! Will you promote your network to the whole working world population? Will you become the company with the largest capital in the world? Check out other types of victory while you're pacing Life Invader !
+Several types of victory are possible! Will you promote your network to the whole working world population? Will you become the company with the largest capital in the world? Check out other types of victory while you're pacing Life Invader!
 
 
 ## Target
