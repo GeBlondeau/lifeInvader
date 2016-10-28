@@ -1,0 +1,30 @@
+\chapter{Préconisations Générales}
+\label{sec:preconisationsGenerales}
+
+\section{Développement}
+Les différents codes du jeu seront organisés suivant l'architecture MVC afin de garantir une facilité de lecture et un meilleur travail en équipe.
+
+Pour le moment, nous n'avons pas encore défini de besoins spécifiques concernant des API.
+
+Concernant l'interface graphique, sauf si nous trouvons une meilleure solution, nous allons utiliser la librairie \href{https://libgdx.badlogicgames.com/}{LibGDX\footnote{https://libgdx.badlogicgames.com/}}
+
+\subsection{Langage}
+L'application sera en Français et Anglais. Le code sera organisé de façon à respecter les techniques de localisation afin de pouvoir facilement ajouter d'autres langues.
+
+\subsection{Client/Serveur}
+Pour un bon fonctionnement, le jeu est divisé en 2 parties principales:
+\begin{itemize}
+    \item Le client
+    
+    Le client s'occupe de tout ce qui est "jouable" et transmet les commandes au serveur qui lui, organisera le jeu.
+    \item Le Serveur 
+    
+    Le serveur s'occupe de gérer le monde, les évènements qui s'y produisent et renvois aux clients connectés les informations sur la partie en cours.
+\end{itemize}
+
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "cahierDesCharges"
+%%% End: 
