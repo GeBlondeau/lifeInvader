@@ -30,7 +30,10 @@ All holders of a computer with JAVA. The target is a casual player who wants eit
 - An interactive _live feed_ to increase the realism of the game. This one evolves according to users' actions.
 - To evolve the network, you have to spend money. Money is won in differents ways:
   - according to your network updates, you will regularly and automatically receive incomes.
-  - periodically, marketting action will be made all around the world, with the GUI, click on it to receive your reward, with 
+  - periodically, marketting action will be made all around the world, with the GUI, click on it to receive your reward. 
+    Thanks to black ops menu, you will get some comfort (less taxes, ...) and an huge financial compensation. But your reputation will take a hit.
+  - All social networks in competition during the game will periodically receive attacks from states, hackers and competitors.
+  - A competitor begins in the same time than you (AI or another player), he will get exactly the same features, advantages/disadventages as you.
 
 ## Contributors
 
