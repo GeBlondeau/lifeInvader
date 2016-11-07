@@ -3,8 +3,7 @@
 
 ## Synopsis
 
-Life Invader is an amazing game where you will personify a new social network. Your purpose is to take control on every private informations on each person on Earth in order to serve a dark side!
-//TODO: modify the sentence PLIZZ
+Life Invader is an amazing game where you will personify a new social network. Your goal is to take control on every private informations available on Earth in order to serve a dark side!
 
 ## Description 
 
