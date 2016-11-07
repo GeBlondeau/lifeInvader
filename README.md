@@ -1,4 +1,9 @@
-# Life-Invader
+# Life-Invader ! ![alt text][logo] 
+
+
+
+[logo]: https://github.com/YoungChrisV/Life-Invader/blob/master/misc/Logo/lifeInvader-50x60.png "Logo Title Text 2"
+
 
 
 ## Synopsis
