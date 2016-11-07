@@ -42,25 +42,21 @@ citecolor=black,
 urlcolor=black}
 
 \renewcommand{\baselinestretch}{1.05}
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyfoot{}
+
+\pagestyle{plain}
+
 %\fancyhead[LE,RO]{\bfseries\thepage}
 %\fancyhead[RE]{\bfseries\nouppercase{\leftmark}}
 %\fancyhead[LO]{\bfseries\nouppercase{\rightmark}}
-\setlength{\headheight}{15pt}
+
+
+\setlength{\headheight}{0pt}
+\setlength{\headsep}{0pt} % Entre le haut de page et le texte
 
 \let\headruleORIG\headrule
-\renewcommand{\headrule}{\color{black} \headruleORIG}
-\renewcommand{\headrulewidth}{1.0pt}
 \usepackage{colortbl}
 \arrayrulecolor{black}
 
-\fancypagestyle{plain}{
-  \fancyhead{}
-  \fancyfoot[C]{\thepage}
-  \renewcommand{\headrulewidth}{0pt}
-}
 
 \makeatletter
 \def\@textbottom{\vskip \z@ \@plus 1pt}
@@ -209,8 +205,8 @@ urlcolor=black}
 %%% Content of the report and references %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\mainmatter
-\pagestyle{fancy}
+
+\pagestyle{plain}
 
 \cleardoublepage
 
