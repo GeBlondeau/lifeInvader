@@ -1,9 +1,9 @@
-\chapter{Les exigences fonctionnelles}
-\label{sec:exigencesFonctionnelles}
+\chapter{Déroulement d'une partie}
+\label{sec:deroulementdUnePartie}
 
-\section{Le menu princpal}
+\section{Le menu principal}
 
-La première interaction entre l'utilisateur consistera à choissir entre :
+La première interaction entre l'utilisateur consistera à choisir entre :
 
 \begin{itemize}
     \item Jouer
@@ -53,15 +53,12 @@ Lorsque la partie commence, il vous faut choisir un marché de départ. L'Europe
 
 Dès que celui-ci a été choisi, la partie commence ! C'est votre soirée de lancement et vous obtiendrez vos premiers utilisateurs, ainsi qu'une base d'argent pour commencer à vous développer.
 
-\subsubsection{Évènements Marketings}
-Les évènements marketing apparaissent à l'écran de manière régulière, il suffit de cliquer\footnote{En CLI, un message apparaîtra sur la console, il faudra presser la touche demandée dans le temps imparti} dessus pour l'obtenir. Il augmentera le nombre d'utilisateurs et vous apportera de l'argent.
-
 \subsection{La carte du marché mondial}
 C'est l'écran principal du jeu. Pour la version graphique, il s'agit d'une carte du monde où les pays sont regroupés pour former un marché\footnote{Ex : Europe, Amérique du Nord, Asie, ...}. Graphiquement, il y aura une animation entre les différents marchés sous forme de flux de données représentant internet.
 
 
 
-\subsection{Les actions possibles}
+\subsection{Les actions}
 \subsubsection{Menu Gestion}
 A travers ce menu, vous aurez accès aux différentes améliorations :
 \begin{itemize}
@@ -71,7 +68,22 @@ A travers ce menu, vous aurez accès aux différentes améliorations :
         \end{itemize}
 
 \subsubsection{Menu Monde}
-Grâce à ce menu, vous aurez accès à toutes les informations utiles concernant le monde et votre progression.
+Grâce à ce menu, vous aurez accès à toutes les informations utiles concernant le monde et votre progression. 
+
+La population mondiale est actuellement de 7,43 milliards et il y a 2,8 milliards à avoir accès à internet (UIT-2013)
+
+\subsubsection{Évènements Marketings}
+Les évènements marketing apparaissent à l'écran de manière régulière, il suffit d'effectuer l'action demandée (GUI \& console) dessus pour l'obtenir. Il augmentera le nombre d'utilisateurs et vous apportera de l'argent.
+
+\subsubsection{Progression}
+
+Il vous sera possible d'ajouter des modes de transmissions, des capacités à votre réseau pour étendre et gagner du terrain. Vous recevrez au fil de votre partie du crédit pour acheter ces dites transmissions (ex : bouche à oreille, pub, placements de produits...)
+
+Il y a également différents types de fonctionnalités qui apparaîtront aléatoirement et qui auront des niveaux que vous pourrez acheter grâce à votre crédit.
+
+\subsubsection{Régression}
+
+Aléatoirement, des mali vont venir contrer votre progression dans le jeu. Ces mali seront sous formes de menaces. 
 
 \subsubsection{Réglages}
 \begin{itemize}
@@ -84,6 +96,35 @@ Le liveFeed contient des informations sur le monde, celles-ci peuvent vous donne
 Affiche le nombre d'utilisateurs actifs de votre réseau ainsi que votre compte en banque.
 \subsection{Date}
 Affiche la date actuelle, vous pouvez également augmenter la vitesse du jeu.
+
+\section{Le jeu en CLI}
+Le principe, de toute évidence, reste le même.
+
+En interface console, la présentation du monde se fera par barre de remplissage qui représenteront les différents marchés \footnote{Source : wikipédia}: 
+    \begin{itemize}
+                \item zone Amérique du Nord : 579 millions
+                \item zone Amérique du Sud: 422,5 millions
+                \item zone Europe : 743,1 millions 
+                \item zone Asie-Ouest + Sud + Centrale : 18.089.853.000
+                \item zone Asie-Est + Sud-Est : 2.230.503.000
+                \item zone Corée du nord : 24,9 millions 
+                \item zone Russie: 143,5 millions 
+    \end{itemize}
+
+
+Ces barres de remplissage seront rafraîchies régulièrement au fur et à mesure de l'infection de votre réseau social dans le monde. Une visualisation de ces dites barres sera lancée et actualisée. Il vous sera toujours possible de ré-afficher ces barres en 
+
+Concernant les évènements du jeu, un message apparaîtra sur la console. Il faudra alors presser la touche demandée dans le temps impartis.
+
+Pour effectuer les différentes opérations possibles, vous allez devoir entrer des lignes de commande prévues à cet effet. Une page help sera à disposition de l'utilisateur en cas de doute. 
+
+\begin{figure}
+\begin{center}
+\includegraphics{images/htop.png}
+\end{center}
+\caption{No caption for now }
+\label{example}
+\end{figure}
 
 
 %%% Local Variables: 
