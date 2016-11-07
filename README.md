@@ -1,11 +1,8 @@
-# Life-Invader ! ![alt text][logo] 
+
+<img src="https://cdn.rawgit.com/YoungChrisV/Life-Invader/master/misc/Logo/lifeInvaderFull/lifeInvaderFull.svg" width="100%" height="144">
 
 
-
-[logo]: https://raw.githubusercontent.com/YoungChrisV/Life-Invader/master/misc/Logo/lifeInvader-50x60.png "Logo Title Text 2"
-
-
-
+# Life-Invader !
 ## Synopsis
 
 Life Invader is an amazing game where you will personify a new social network. Your goal is to take control on every private informations available on Earth in order to serve a dark side!
