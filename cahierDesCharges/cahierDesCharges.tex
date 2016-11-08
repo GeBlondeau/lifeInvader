@@ -3,13 +3,14 @@
 % Version: 0.2
 % Author: Damien Roque <damien.roque_AT_isae.fr>
 % Modified for EPHEC projects reports
-% Changes made by (Christophe Van Waesberghe)<contact@chrisv.be><c.vanwaesberghe@students.ephec.be>
+% Changes made by 
+% - (Christophe Van Waesberghe) <contact@chrisv.be> <c.vanwaesberghe@students.ephec.be>
+% - (Danielle Delfosse) <delfosse.da@gmail.com> <d.delfosse@students.ephec.be>
 
 \documentclass[a4paper,12pt, oneside]{book}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[frenchb]{babel} % If you write in French
-%\usepackage[english]{babel} % If you write in English
 \usepackage{a4wide}
 \usepackage{graphicx}
 \graphicspath{{images/}}
@@ -44,11 +45,6 @@ urlcolor=black}
 \renewcommand{\baselinestretch}{1.05}
 
 \pagestyle{plain}
-
-%\fancyhead[LE,RO]{\bfseries\thepage}
-%\fancyhead[RE]{\bfseries\nouppercase{\leftmark}}
-%\fancyhead[LO]{\bfseries\nouppercase{\rightmark}}
-
 
 \setlength{\headheight}{0pt}
 \setlength{\headsep}{0pt} % Entre le haut de page et le texte
@@ -173,7 +169,6 @@ urlcolor=black}
 % Title
 \rule{\linewidth}{0.5mm} \\[0.4cm]
 { 
-%\huge \bfseries Life Invader\\[0.4cm]
 \includegraphics[width=0.3\textwidth]{images/lifeInvaderFull-300x420.png}
 }
 \rule{\linewidth}{0.5mm} \\[1.5cm]
@@ -218,15 +213,6 @@ urlcolor=black}
 \include{03-calendrier}
 \include{04-first-chapter}
 \include{05-second-chapter}
-\include{06-third-chapter}
-\include{07-fourth-chapter}
 \include{08-conclusion}
-
-\appendix
-
-\bibliographystyle{authoryear-fr}
-%\bibliography{references}
-
-\clearpage
 
 \end{document}
