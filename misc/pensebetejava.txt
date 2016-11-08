@@ -1,13 +1,16 @@
-7,43 milliards juillet 2016
+﻿7,43 milliards juillet 2016
 nom choisi par utilisateur: 
 separation en zone continentale; 
-	zone Amerique-nord : 579 millions 
-	zone Amerique-sud: 422,5 millions 
-	zone Europe : 743,1 millions 
-	zone Asie-Ouest + Sud + centrale : 18.089.853.000
-	zone Asie-Est + Sud-Est : 2.230.503.000
-	zone Corée du nord : 24,9 millions 
-	zone Russie: 143,5 millions 
+— zone Afrique : 1 216 130 000 habitants
+— zone Amérique du Nord : 390 529 000 habitants
+— zone Amérique du Sud : 641 029 000 habitants
+— zone Asie Sud et Centrale : 1 836 755 000 habitants
+— zone Asie Est : 1 604 437 795 habitants
+— zone Asie Ouest : 250 098 000 habitants
+— zone Corée du Nord : 24 983 205 habitants
+— zone Europe : 738 849 000 habitants
+— zone Océanie : 39 901 000 habitants
+— zone Russie : 146 544 710 habitants
 
 Il y a dans le monde 6,8 milliards d'abonnés au téléphone cellulaire/mobile, soit environ 96,2 % des habitants (UIT-2013)
 Nous sommes 2,8 milliards à avoir accès à internet (UIT-2013)
@@ -28,15 +31,18 @@ Transmission :
 
 Symptomes :
 	mode du selfie
+	addicted aux jeux sur le reseau social
+	stalkage --> plainte
+	faux comptes (?)
+	
 
 Capacités : 
 	fonctionalité photos/videos
-	fonctionalité 
+	fonctionalité chat vocal et vidéo
+	
 
-	chat vocal et vidéo
 Menaces : firewall, attack ddos sur le QG
 
-malus boost
 popup surprise incrementation credit random 
 popup surprise incrementation remede random ; 
 
