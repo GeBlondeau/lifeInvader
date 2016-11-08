@@ -8,6 +8,10 @@ La première interaction entre l'utilisateur consistera à choisir entre :
 \begin{itemize}
     \item Jouer
     \item Tutoriel
+    \begin{itemize}
+    \item Manuel du jeu
+    \item \sout{Didacticiel} (Une fois que le jeu sera totalement développé)
+\end{itemize}
     \item Réglages
     \item Informations / Crédits
 \end{itemize}
@@ -16,26 +20,19 @@ La première interaction entre l'utilisateur consistera à choisir entre :
 L'utilisateur aura le choix entre :
 \begin{itemize}
     \item Nouvelle Partie
-    \item Charger une partie
-\end{itemize}
-\subsubsection{Nouvelle Partie}
-\begin{itemize}
+    \begin{itemize}
     \item Sélection du type de réseau social\footnote{Afin de permettre un développement du jeu par la suite, nous prévoyons déjà de la place pour d'autres mode de jeux}
 \end{itemize}
 
-\subsection{Tutoriel}
-L'utilisateur aura le choix entre :
-\begin{itemize}
-    \item Manuel du jeu
-    \item \sout{Dictaticiel} (Une fois que le jeu sera totalement développé)
+    \item Charger une partie
 \end{itemize}
+
 \clearpage
 \subsection{Réglages}
 Les choix seront les suivants :
 \begin{itemize}
     \item Son (GUI)
     \item Musique (GUI)
-    \item Pause automatique
     \item Langage
 \end{itemize}
 
@@ -54,8 +51,7 @@ Lorsque la partie commence, il vous faut choisir un marché de départ. L'Europe
 Dès que celui-ci a été choisi, la partie commence ! C'est votre soirée de lancement et vous obtiendrez vos premiers utilisateurs, ainsi qu'une base d'argent pour commencer à vous développer.
 
 \subsection{La carte du marché mondial}
-C'est l'écran principal du jeu. Pour la version graphique, il s'agit d'une carte du monde où les pays sont regroupés pour former un marché\footnote{Ex : Europe, Amérique du Nord, Asie, ...}. Graphiquement, il y aura une animation entre les différents marchés sous forme de flux de données représentant internet.
-
+C'est l'écran principal du jeu. Pour la version graphique, il s'agit d'une carte du monde où les pays sont regroupés pour former un marché\footnote{Ex : Europe, Amérique du Nord, Asie, ...}. Graphiquement, il y aura une animation entre les différents marchés sous forme de flux de données représentant internet. En mode console, ces marchés sont représentés par des barres de pourcentage.
 
 
 \subsection{Les actions}
@@ -67,23 +63,20 @@ A travers ce menu, vous aurez accès aux différentes améliorations :
             \item \textbf{Black Ops} : Cette catégorie d'actions consiste à faire du \textbf{Lobbying} auprès d'états pour assouplir la régulation du marché, de signer des contrats secrets avec des agences de renseignement,...
         \end{itemize}
 
-\subsubsection{Menu Monde}
+\subsubsection{Menu Monde \& Évènements Marketings}
 Grâce à ce menu, vous aurez accès à toutes les informations utiles concernant le monde et votre progression. 
 
-La population mondiale est actuellement de 7,43 milliards et il y a 2,8 milliards à avoir accès à internet (UIT-2013)
+La population mondiale est actuellement de 7,43 milliards et il y a 2,8 milliards à avoir accès à internet (UIT-2013).
 
-\subsubsection{Évènements Marketings}
 Les évènements marketing apparaissent à l'écran de manière régulière, il suffit d'effectuer l'action demandée (GUI \& console) dessus pour l'obtenir. Il augmentera le nombre d'utilisateurs et vous apportera de l'argent.
 
-\subsubsection{Progression}
+\subsubsection{Progression \& Régression}
 
 Il vous sera possible d'ajouter des modes de transmissions, des capacités à votre réseau pour étendre et gagner du terrain. Vous recevrez au fil de votre partie du crédit pour acheter ces dites transmissions (ex : bouche à oreille, pub, placements de produits...)
 
 Il y a également différents types de fonctionnalités qui apparaîtront aléatoirement et qui auront des niveaux que vous pourrez acheter grâce à votre crédit.
 
-\subsubsection{Régression}
-
-Aléatoirement, des mali vont venir contrer votre progression dans le jeu. Ces mali seront sous formes de menaces. 
+Aléatoirement, des mali vont venir contrer votre progression dans le jeu. Ces mali seront sous formes de menaces telles que des concurrents, des effets secondaires à certains modes de transmissions, etc. 
 
 \subsubsection{Réglages}
 \begin{itemize}
@@ -91,13 +84,12 @@ Aléatoirement, des mali vont venir contrer votre progression dans le jeu. Ces m
             \item Sauver \& quitter
 \end{itemize}
 \subsubsection{Live Feed}
-Le liveFeed contient des informations sur le monde, celles-ci peuvent vous donner des indices sur une faille à exploiter ainsi que sur l'avancement de vos concurrents.
+Le liveFeed contient des informations sur le monde, celles-ci peuvent vous donner des indices sur une faille à exploiter ainsi que sur l'avancement de vos concurrents. Ce lifeFeed sert à augmenter le réalisme du jeu. Celui-ci évolue en fonction des actions de l'utilisateur
 
 \subsubsection{Fonctionnalités}
 
 \begin{itemize}
     \item L'interface Graphique (GUI) sera fortement inspiré de celui du jeu PlagueInc. 
-    \item Concernant l'interface console, celle-ci sera composée de différents menus afin d'obtenir des informations sur le monde et des répercussions des actions sur celui-ci.
     
     \item Il faudra gérer votre réputation pour que les utilisateurs continuent à s'inscrire et qu'ils restent actifs.
     
@@ -112,7 +104,6 @@ Le liveFeed contient des informations sur le monde, celles-ci peuvent vous donne
             \item \textbf{Black Ops} : Cette catégorie d'actions consiste à faire du \textbf{Lobbying} auprès d'états pour assouplir la régulation du marché, de signer des contrats secrets avec des agences de renseignement,...
         \end{itemize}
         \end{itemize}
-        \item{Un \textbf{live feed} interactif pour augmenter le réalisme du jeu. Celui-ci évolue en fonction des actions de l'utilisateur}
         \item Pour faire évoluer le réseau, il faut dépenser de l'argent. Celui-ci est gagné de différentes manières : 
         \begin{itemize}
             \item Suivant les mise à jours de votre réseau, vous obtiendrez régulièrement des revenus de manière automatique
@@ -123,9 +114,9 @@ Le liveFeed contient des informations sur le monde, celles-ci peuvent vous donne
     \end{itemize}
 \end{itemize}
 
-\subsection{Utilisateurs Actif \& Argent}
+\subsection{Utilisateurs Actif \& Argent \& Date}
 Affiche le nombre d'utilisateurs actifs de votre réseau ainsi que votre compte en banque.
-\subsection{Date}
+
 Affiche la date actuelle, vous pouvez également augmenter la vitesse du jeu.
 
 \section{Le jeu en CLI}
@@ -155,8 +146,16 @@ Pour effectuer les différentes opérations possibles, vous allez devoir entrer 
 \begin{center}
 \includegraphics{images/htop.png}
 \end{center}
-\caption{No caption for now }
-\label{example}
+\caption{ HTOP Upper interface will be the base for the CLI }
+\label{HTOP}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics{images/CLITest.png}
+\end{center}
+\caption{ Drawing of the idea of the CLI }
+\label{CLITest}
 \end{figure}
 
 
