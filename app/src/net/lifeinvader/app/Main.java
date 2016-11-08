@@ -1,7 +1,7 @@
 package net.lifeinvader.app;
 
 /**
- * print "Hello World !" on the standard output.
+ * print "Welcome to lifeInvader" on the standard output.
  * @author <a href="mailto:contact@chrisv.be">Christophe Van Waesberghe (contact@chrisv.be)</a>
  * @author <a href="mailto:delfosse.da@gmail.com">Danielle Delfosse (delfosse.da@gmail.com)</a>
  *
@@ -9,7 +9,7 @@ package net.lifeinvader.app;
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("Hello World !");
+		System.out.println("Welcome to lifeInvader");
 
 	}
 
