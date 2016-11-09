@@ -63,4 +63,82 @@ Mode Multi : Concurrence
 
 
 
+Market
+	- nom 
+	- id
+	- population avec internet
+	- 			 sans internet 
+				----> pop totale
+
+
+Transmission
+
+	event market
+	concurrency
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SN
+	reputation
+	growth
+
+growth 
+	
+
+
+
+
+
+
+Attacks 
+	from states (justice)
+	concurrency
+	hackers
+
+	live feed
+
+	positive actions
+		event market 
+		black ops
+		growth 
+		security
+		negociations
+	negative actions
+		side effect from event market
+		taxes
+		side effect from negociations
+
+	réglages
+		parametres 
+		sauver & quitter
+
+	Players
+		other players
+		IA
+
+
+	creation 	| 	growth 		|  control 
+		|								|_ everyone has internet access
+	   nom 
+	  marché
+
+
+
+
+
 
