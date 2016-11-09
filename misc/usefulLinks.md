@@ -4,3 +4,4 @@
 # Useful Links
 
 - [Pattern MVC](http://baptiste-wicht.developpez.com/tutoriels/conception/mvc/)
+- [Cahier des charges](http://gaetano-notorio.com/portfolio/cahier-des-charges-pour-une-application-mobile/)
