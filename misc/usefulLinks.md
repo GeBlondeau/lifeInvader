@@ -5,3 +5,4 @@
 
 - [Pattern MVC](http://baptiste-wicht.developpez.com/tutoriels/conception/mvc/)
 - [Cahier des charges](http://gaetano-notorio.com/portfolio/cahier-des-charges-pour-une-application-mobile/)
+- [Créer un jeu en Java. Bibliothèque, moteur & conseils](https://openclassrooms.com/forum/sujet/les-outils-pour-la-creation-de-jeux-video-en-java-18410) 
