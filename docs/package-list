@@ -1,0 +1,5 @@
+net.lifeinvader.app
+net.lifeinvader.app.controller
+net.lifeinvader.app.model
+net.lifeinvader.app.model.events
+net.lifeinvader.app.view
