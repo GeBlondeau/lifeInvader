@@ -1,6 +1,7 @@
 #Custom
 .DS_Store
 .project
+.classpath
 /app/bin/
 
 #Inspired by https://github.com/github/gitignore
