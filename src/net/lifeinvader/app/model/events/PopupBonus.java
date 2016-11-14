@@ -1,5 +1,5 @@
 package net.lifeinvader.app.model.events;
-import src.net.lifeinvader.app.model.Market;
+import net.lifeinvader.app.model.Market;
 
 
 public class PopupBonus extends Event{
