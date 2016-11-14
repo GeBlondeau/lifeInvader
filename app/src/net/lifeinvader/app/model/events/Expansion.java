@@ -1,4 +1,4 @@
-package events;
+package net.lifeinvader.app.model.events;
 
 public class Expansion extends Event{
 	private String name;

@@ -1,4 +1,4 @@
-package events;
+package net.lifeinvader.app.model.events;
 
 public abstract class Event {
 	private int reputationCoef;
