@@ -7,7 +7,7 @@ package net.lifeinvader.app.model;
  *
  */
 public class Market {
-	
+
 	String name = "N/A";
 	String code = "N/A";
 	
@@ -16,6 +16,13 @@ public class Market {
 	
 	int nbInscrit = 0;
 	
+	/**
+	 * Complete Market constructor
+	 * @param name String - Market name
+	 * @param code String - Market code (Code rules to be defined)
+	 * @param popNoWeb int - Market population without Internet (in million)
+	 * @param popWeb int - Market population with Internet (in million)
+	 */
 	public Market(String name, String code, int popNoWeb, int popWeb){
 		this.name=name;
 		this.code=code;
