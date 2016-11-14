@@ -31,6 +31,10 @@ public class Market {
             this.popWeb=popWeb;	
     }
 
+    /**
+     * Return the Market in a String form (Market{name="name", code="code", popNoWeb="popNoWeb", popWeb="popWeb", nbInscrit="nbInscrit'})
+     * @return test
+     */
     @Override
     public String toString() {
         return "Market{" + "name=" + name + ", code=" + code + ", popNoWeb=" + popNoWeb + ", popWeb=" + popWeb + ", nbInscrit=" + nbInscrit + '}';
