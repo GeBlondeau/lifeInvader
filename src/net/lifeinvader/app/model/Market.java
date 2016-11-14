@@ -8,13 +8,13 @@ package net.lifeinvader.app.model;
  */
 public class Market {
 
-	String name = "N/A";
-	String code = "N/A";
+	private String name = "N/A";
+	private String code = "N/A";
 	
-	int popNoWeb = 0;
-	int popWeb = 0;
+	private int popNoWeb = 0;
+	private int popWeb = 0;
 	
-	int nbInscrit = 0;
+	private int nbInscrit = 0;
 	
 	/**
 	 * Complete Market constructor
