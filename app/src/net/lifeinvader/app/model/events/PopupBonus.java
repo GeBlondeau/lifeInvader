@@ -1,4 +1,4 @@
-net.lifeinvader.app.model.package events;
+package net.lifeinvader.app.model.events;
 
 public class PopupBonus extends Event{
 	

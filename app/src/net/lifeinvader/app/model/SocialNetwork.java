@@ -1,3 +1,4 @@
+package net.lifeinvader.app.model;
 
 public class SocialNetwork {
 	private String name;
