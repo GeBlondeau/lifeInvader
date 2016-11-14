@@ -8,29 +8,113 @@ package net.lifeinvader.app.model;
  */
 public class Market {
 
-	private String name = "N/A";
-	private String code = "N/A";
-	
-	private int popNoWeb = 0;
-	private int popWeb = 0;
-	
-	private int nbInscrit = 0;
-	
-	/**
-	 * Complete Market constructor
-	 * @param name String - Market name
-	 * @param code String - Market code (Code rules to be defined)
-	 * @param popNoWeb int - Market population without Internet (in million)
-	 * @param popWeb int - Market population with Internet (in million)
-	 */
-	public Market(String name, String code, int popNoWeb, int popWeb){
-		this.name=name;
-		this.code=code;
-		this.popNoWeb=popNoWeb;
-		this.popWeb=popWeb;
-		
-	}
-	
-	
-		
+    private String name = "N/A";
+    private String code = "N/A";
+    
+    private int popNoWeb = 0;
+    private int popWeb = 0;
+    private int nbInscrit = 0;
+    
+    //Constructors
+    
+    /**
+     * Complete Market constructor
+     * @param name String - Market name
+     * @param code String - Market code (Code rules to be defined)
+     * @param popNoWeb int - Market population without Internet (in million)
+     * @param popWeb int - Market population with Internet (in million)
+     */
+    public Market(String name, String code, int popNoWeb, int popWeb){
+        this.name=name;
+        this.code=code;
+            this.popNoWeb=popNoWeb;
+            this.popWeb=popWeb;	
+    }
+
+    @Override
+    public String toString() {
+        return "Market{" + "name=" + name + ", code=" + code + ", popNoWeb=" + popNoWeb + ", popWeb=" + popWeb + ", nbInscrit=" + nbInscrit + '}';
+    } 
+    
+    //Getters and setters
+    /**
+     * Get the Market name
+     * @return String name
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * Set the Market name
+     * @param name String - Market name
+     */
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    /**
+     * Get the Market code
+     * @return String - Market code
+     */
+    public String getCode() {
+        return code;
+    }
+
+    /**
+     * Set the Market code (TODO: Code convention to be defined)
+     * @param code String - Market code
+     */
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    /**
+     * Get the Market population without Internet
+     * @return int - Market population without internet
+     */
+    public int getPopNoWeb() {
+        return popNoWeb;
+    }
+
+    /**
+     * Set the Market population without Internet
+     * @param popNoWeb int - Market population without internet
+     */
+    public void setPopNoWeb(int popNoWeb) {
+        this.popNoWeb = popNoWeb;
+    }
+
+     /**
+     * Get the Market population with Internet
+     * @return int - Market population with Internet
+     */
+    public int getPopWeb() {
+        return popWeb;
+    }
+
+    /**
+     * Set the Market population with Internet
+     * @param popWeb int - Market population with Internet
+     */
+    public void setPopWeb(int popWeb) {
+        this.popWeb = popWeb;
+    }
+
+    /**
+     * Get the number of people who have signed up to the Social network
+     * @return int - Number of people who have signed up to the Social network
+     */
+    public int getNbInscrit() {
+        return nbInscrit;
+    }
+
+    /**
+     * Set the number of people who have signed up to the Social network
+     * @param nbInscrit int - Number of people who have signed up to the Social network
+     */
+    public void setNbInscrit(int nbInscrit) {
+        this.nbInscrit = nbInscrit;
+    }
+        	
 }
