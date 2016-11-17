@@ -35,11 +35,12 @@ public class MarketTest {
     
     @Before
     public void setUp() {
-        
+      
     }
     
     @After
     public void tearDown() {
+      
     }
 
     // TODO add test methods here.
@@ -50,7 +51,7 @@ public class MarketTest {
     
     @Test
     public void testMarket(){
-        assertEquals("Market{name=US, code=US, popNoWeb=128, popWeb=10, nbInscrit=0}", market.toString());
+        assertEquals("Market{name=US, code=US, popNoWeb=128, popWeb=10}", market.toString());
     }
 
 }
