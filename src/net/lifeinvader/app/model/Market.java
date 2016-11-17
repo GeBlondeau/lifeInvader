@@ -13,7 +13,6 @@ public class Market {
     
     private int popNoWeb = 0;
     private int popWeb = 0;
-    private int nbInscrit = 0;
     
     //Constructors
     
@@ -37,7 +36,7 @@ public class Market {
      */
     @Override
     public String toString() {
-        return "Market{" + "name=" + name + ", code=" + code + ", popNoWeb=" + popNoWeb + ", popWeb=" + popWeb + ", nbInscrit=" + nbInscrit + '}';
+        return "Market{" + "name=" + name + ", code=" + code + ", popNoWeb=" + popNoWeb + ", popWeb=" + popWeb + "}";
     } 
     
     //Getters and setters
@@ -103,22 +102,6 @@ public class Market {
      */
     public void setPopWeb(int popWeb) {
         this.popWeb = popWeb;
-    }
-
-    /**
-     * Get the number of people who have signed up to the Social network
-     * @return int - Number of people who have signed up to the Social network
-     */
-    public int getNbInscrit() {
-        return nbInscrit;
-    }
-
-    /**
-     * Set the number of people who have signed up to the Social network
-     * @param nbInscrit int - Number of people who have signed up to the Social network
-     */
-    public void setNbInscrit(int nbInscrit) {
-        this.nbInscrit = nbInscrit;
     }
         	
 }
